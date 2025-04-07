@@ -1,13 +1,13 @@
 ---
 layout: book-shelf
-title: bookshelf
-permalink: /books/
-nav: false
+title: antilibrary
+permalink: /antilibrary/
+nav: true
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
 ## Books that I am reading, have read, or will read
+
+I decided recently to flip the [Dunning Kruger Effect](https://en.m.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) and started a antilibrary, for those who are new to the term is it is a term that Nassim Nocholas Taleb mention as "the collection of unread books". I always hated the idea to store books, and have a ego-boosting library.
+
