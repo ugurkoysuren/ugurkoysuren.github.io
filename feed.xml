@@ -1,84 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/al-folio/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/al-folio/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-04-06T13:23:40+00:00</updated><id>https://alshedivat.github.io/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with plotly.js</title><link href="https://alshedivat.github.io/al-folio/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2025/plotly</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}
-</code></pre> <p>Also another example chart.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>This is how it looks like:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">a post with image galleries</title><link href="https://alshedivat.github.io/al-folio/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/photo-gallery</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024[[read-time]] min read We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-04-07T19:22:49+00:00</updated><id>https://alshedivat.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://alshedivat.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024[[read-time]] min read We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
     
       Check your inbox to confirm your subscription.
     You are already subscribed to our newsletter.
@@ -89,660 +9,99 @@
     
   Let’s stay in touch. Get the latest news from Google in your inbox.
           Follow Us
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://alshedivat.github.io/al-folio/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/tabs</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">How to Be a Better Interviewer (From Someone Who’s Been on Both Sides)</title><link href="https://alshedivat.github.io/blog/2024/how-to-be-a-better-interviewer/" rel="alternate" type="text/html" title="How to Be a Better Interviewer (From Someone Who’s Been on Both Sides)"/><published>2024-04-05T15:45:00+00:00</published><updated>2024-04-05T15:45:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/how-to-be-a-better-interviewer</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/how-to-be-a-better-interviewer/"><![CDATA[<h2 id="tech-interviews-hard-or-just-bad-and-my-cracking-the-coding-interview-journey">Tech Interviews: Hard, or Just Bad? (And My Cracking the Coding Interview Journey)</h2> <p>We’re on the hunt for senior devs at our company, people who not only code well but also fit our company values and have consulting chops. Seems simple enough, right? Wrong. Lately, it feels like we’re wading through a swamp of mismatches.</p> <p>I’m hearing from our hiring team that they’re bombarded with applications from juniors showcasing, let’s be honest, <em>very</em> basic React projects. It’s not their fault, exactly. The junior market is definitely saturated. And with the rise of LLMs and other AI tools, it’s easier than ever for someone with limited experience to <em>appear</em> more proficient than they are. But this also makes it <em>harder</em> for companies to sort the wheat form the chaff.</p> <p>This whole situation got me thinking, and naturally, I picked up “Cracking the Coding Interview” again. It’s been gathering dust in my antilibrary (you know, that collection of books you <em>intend</em> to read…), but now it feels relevant again. Not just for potential candidates hitting the interview grind, but for us, the interviewers! Tech interviews are <em>hard</em>. No one likes them. But are we making them harder than they need to be? And are we even assessing the <em>right</em> things?</p> <p><strong>The Junior Dilemma (and the AI Elephant in the Room)</strong></p> <p>In my early days as a junior developer, there was no magic “AI-as-a-Service” button to instantly whip up a SaaS application in languages you barely knew. You <em>had</em> to learn the fundamentals. You <em>had</em> to struggle through debugging. You built your skills through grit and perseverance. It’s hard to find a “good junior”, one that has all of those qualities these days.</p> <p>I worry that these new AI tools, while incredibly powerful, might inadvertently create a generation of developers who lack that foundational knowledge and problem-solving ability. If you can copy/paste your way to a working application, do you <em>really</em> understand what’s going on under the hood? Can you debug it effectively when things inevitably go wrong?</p> <p>This puts even more pressure on interviewers to dig deeper. We need to move beyond superficial assessments and find ways to gauge a candidate’s true understanding, their ability to learn, and their passion for problem-solving.</p> <p><strong>So, How Do We Become Better Interviewers?</strong></p> <p>Here are a few thoughts, fueled by my own recent experiences and a healthy dose of “Cracking the Coding Interview”:</p> <ul> <li><strong>Focus on Fundamentals, Not Frameworks:</strong> Instead of grilling candidates on the latest hot framework (which will probably be obsolete in a year anyway), focus on core computer science principles: data structures, algorithms, and design patterns. “Cracking the Coding Interview” is still a good resource here, not for memorizing solutions, but for understanding the underlying concepts.</li> <li><strong>Problem-Solving Skills: Beyond the LeetCode Grind:</strong> While coding challenges are important, make them relevant to real-world problems. Can the candidate explain <em>why</em> they chose a particular approach? Can they articulate the trade-offs? Are they able to break down a complex problem into smaller, manageable pieces?</li> <li><strong>Communication and Collaboration: Can They Play Nice?</strong> Tech is a team sport. Assess how well the candidate communicates their ideas, collaborates with others, and handles constructive criticism. Are they able to explain their thought process clearly? Do they listen to feedback and incorporate it into their solution?</li> <li><strong>Assess for Core Values:</strong> Does the candidate share the same passions, interests and ethical behaviour that you think is a good representative of the company? Will they work with their team to make more value than less? Does this person fit your company values?</li> <li><strong>The “Why?” Question:</strong> Don’t just ask <em>what</em> the candidate did in their previous roles, ask <em>why</em> they made certain decisions. This will reveal their understanding of the underlying motivations and trade-offs.</li> <li><strong>Be Open to Different Backgrounds:</strong> Don’t automatically dismiss candidates who don’t have a traditional computer science degree. Look for individuals with a demonstrated ability to learn and a track record of success in challenging environments.</li> <li><strong>Empathy is Key:</strong> Remember, interviews are stressful. Create a welcoming and supportive environment that allows candidates to showcase their best selves.</li> </ul> <p><strong>Is Easy the Goal? Not Really.</strong></p> <p>The goal isn’t to make tech interviews <em>easy</em>. It’s to make them <em>effective</em>. We need to find ways to accurately assess a candidate’s true potential, their ability to learn and grow, and their fit within our company culture.</p> <p>If LLMs are democratizing software development (and they probably are), then we, as interviewers, need to adapt and evolve. We need to go beyond the surface and find the hidden gems – the individuals who not only know how to use the tools but also understand <em>why</em> they work.</p> <p>Now, back to “Cracking the Coding Interview.” I’ve got some interview questions to rewrite…</p>]]></content><author><name></name></author><category term="ai"/><category term="LLM"/><category term="Germany"/><category term="Software"/><category term="W-JAX"/><category term="Spring"/><category term="AI"/><category term="Cursor"/><category term="ChatGPT"/><category term="GDPR"/><category term="DSGVO"/><summary type="html"><![CDATA[Practical tips and insights to improve your interviewing skills and make better hiring decisions based on real-world experience.]]></summary></entry><entry><title type="html">LLMs in Deutschland - How AI is Changing German Software (And Why You Should Care)</title><link href="https://alshedivat.github.io/blog/2024/llm-in-deutschland/" rel="alternate" type="text/html" title="LLMs in Deutschland - How AI is Changing German Software (And Why You Should Care)"/><published>2024-04-05T15:45:00+00:00</published><updated>2024-04-05T15:45:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/llm-in-deutschland</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/llm-in-deutschland/"><![CDATA[<h2 id="llms-in-deutschland-between-innovation-and-regulation">LLMs in Deutschland: Between Innovation and Regulation</h2> <p>Servus! (As you know I work in Munich!). I went last year to W-JAX 2024 in Munich, and let me tell you, the air was <em>charged</em> with AI enthusiasm. It felt like every other session was about Large Language Models (LLMs) and how they’re about to revolutionize, well, everything. And while the potential is HUGE, especially in the German software market, it’s not <em>quite</em> as simple as dropping a few LLMs into your existing codebase and watching the magic happen.</p> <p>I spent a lot of time chatting with developers, product managers, and even some of the big-name consultancy folks. The general consensus? LLMs are definitely on the radar, but implementation is…complex. There’s excitement, but also a healthy dose of German <em>Gründlichkeit</em> (thoroughness, for those of you who don’t speak German) and a considerable amount of concern around Datenschutz (data protection).</p> <p>My own journey with LLMs has been a bit of a whirlwind, too. I started playing around with ChatGPT like everyone else, then got hooked on Cursor for the coding superpowers, and now I’m actively exploring Spring AI to see how we can bake LLM capabilities <em>safely</em> and responsibly into our projects. It’s a fascinating time to be a developer!</p> <p>So, what’s the deal with LLMs in the German software world? Here’s my take, based on my experiences and what I’ve gleaned from the field:</p> <p><strong>Beyond the Hype: Real-World LLM Applications in Germany</strong></p> <p>Forget the science fiction fantasies. Here are some <em>practical</em> ways LLMs are starting to make their mark:</p> <ul> <li><strong>Smarter Customer Service (But With a Human Touch):</strong> Think chatbots that <em>actually</em> understand complex queries and can route customers to the right human agent faster. German companies are prioritizing <em>augmentation</em>, not replacement, of their customer support teams.</li> <li><strong>Document Processing Efficiency (Goodbye, Paper Mountain!):</strong> Germany is known for its bureaucracy (sorry, Deutschland!). LLMs can automate document extraction, summarization, and even translation, freeing up valuable employee time. Imagine auto-generating summaries of complex legal documents - now <em>that’s</em> a game changer.</li> <li><strong>Personalized Marketing (Without Being Creepy):</strong> LLMs are helping companies craft targeted marketing campaigns that resonate with specific customer segments, but with a strong emphasis on transparency and user consent (more on that in a bit!).</li> <li><strong>Boosting Efficiency with AI-Assisted Coding:</strong> The rise of tools like Cursor have allowed even just basic software developers to create entire features and components with minimal coding. However this may have advantages and disadvantages as more of all can get something working.</li> </ul> <p><strong>The Elephant in the Room: GDPR (DSGVO)</strong></p> <p>You can’t talk about LLMs in Germany without addressing the General Data Protection Regulation (GDPR), or Datenschutzgrundverordnung (DSGVO) in German. This strict data privacy law casts a long shadow over any AI implementation.</p> <ul> <li><strong>Data Minimization:</strong> GDPR emphasizes collecting only <em>necessary</em> data. This forces developers to be mindful of what data they feed into LLMs.</li> <li><strong>Transparency and Consent:</strong> Users have the right to know how their data is being used and to withdraw their consent. This means building clear and concise explanations into LLM-powered applications.</li> <li><strong>Data Security:</strong> Protecting data from unauthorized access and breaches is paramount. This requires robust security measures throughout the entire LLM lifecycle.</li> <li><strong>Where are you sending data in your applications?</strong>, ChatGPT(OpenAI is not GDPR confirmed) is a big no no for some of the companies that has high security standards. Same goes for github copilot. German Engineers are a LOT aware of the risks of putting company proprietary code to the cloud.</li> </ul> <p>The GDPR is a huge consideration, but it’s not insurmountable. Companies that prioritize privacy and build their solutions with GDPR in mind can successfully leverage the power of LLMs. German companies, as you all know, are a LOT serious about cyber security.</p> <p><strong>Spring AI: A Hopeful Sign?</strong></p> <p>One of the most exciting things I saw at W-JAX was Spring AI. The Spring framework becoming increasingly popular is enabling enterprise-grade AI implementations. This could be a game-changer for German companies that are looking for a robust, secure, and well-supported platform for building LLM-powered applications within legal boundaries.</p> <p><strong>The Future is Bright (But Requires Careful Planning)</strong></p> <p>LLMs have the potential transform the German software market, but it requires a thoughtful and strategic approach. Companies need to:</p> <ul> <li><strong>Prioritize Data Privacy:</strong> GDPR compliance shouldn’t be an afterthought; it should be baked into the design from the beginning.</li> <li><strong>Invest in Training:</strong> Developers need to understand how LLMs work, their limitations, and the ethical considerations surrounding their use.</li> <li><strong>Focus on Augmentation, Not Replacement:</strong> AI should be used to empower human workers, not replace them entirely.</li> <li><strong>Choose the Right Tools:</strong> Carefully evaluate different LLM platforms and frameworks, considering factors like security, scalability, and cost.</li> </ul> <p>What are <em>your</em> thoughts on LLMs and the German software market? Are you excited about the possibilities? Worried about the challenges? I’m always keen to hear different perspectives. And who knows, maybe I’ll see you at W-JAX next year! Prost!</p>]]></content><author><name></name></author><category term="ai"/><category term="LLM"/><category term="Germany"/><category term="Software"/><category term="W-JAX"/><category term="Spring"/><category term="AI"/><category term="Cursor"/><category term="ChatGPT"/><category term="GDPR"/><category term="DSGVO"/><summary type="html"><![CDATA[An analysis of Germany's AI and LLM ecosystem, exploring the unique challenges and opportunities for businesses in the German market.]]></summary></entry><entry><title type="html">Designing Data-Intensive Applications</title><link href="https://alshedivat.github.io/blog/2024/designing-data-intensive-applications/" rel="alternate" type="text/html" title="Designing Data-Intensive Applications"/><published>2024-04-04T14:20:00+00:00</published><updated>2024-04-04T14:20:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/designing-data-intensive-applications</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/designing-data-intensive-applications/"><![CDATA[<h2 id="designing-data-intensive-applications-a-comprehensive-guide">Designing Data-Intensive Applications: A Comprehensive Guide</h2> <p>In today’s digital landscape, applications are increasingly data-intensive, handling vast amounts of information, complex processing, and high concurrency. Designing such applications requires a deep understanding of various data systems, their trade-offs, and how they interact. This guide draws inspiration from Martin Kleppmann’s seminal book “Designing Data-Intensive Applications” to provide a comprehensive overview of the key concepts and principles.</p> <h3 id="what-makes-an-application-data-intensive">What Makes an Application Data-Intensive?</h3> <p>Data-intensive applications are characterized by:</p> <ul> <li><strong>Data Volume</strong> - Handling large amounts of data</li> <li><strong>Data Complexity</strong> - Managing complex data structures and relationships</li> <li><strong>Data Velocity</strong> - Processing data at high speeds</li> <li><strong>Data Variety</strong> - Working with diverse data types and sources</li> </ul> <p>Unlike compute-intensive applications that primarily focus on CPU processing, data-intensive applications spend most of their time storing, retrieving, and processing data.</p> <h3 id="the-three-pillars-of-data-intensive-applications">The Three Pillars of Data-Intensive Applications</h3> <p>When designing data-intensive applications, we need to focus on three fundamental requirements:</p> <h4 id="1-reliability">1. Reliability</h4> <p>A reliable system continues to work correctly even when things go wrong. This involves:</p> <ul> <li><strong>Hardware Faults</strong> - Hard disks fail, RAM has errors, power supplies stop working</li> <li><strong>Software Faults</strong> - Bugs, crashes, race conditions</li> <li><strong>Human Errors</strong> - Configuration mistakes, operational errors</li> </ul> <p>To build reliability, consider:</p> <ul> <li><strong>Redundancy</strong> - Multiple copies of data across different machines</li> <li><strong>Monitoring</strong> - Comprehensive observability to detect issues early</li> <li><strong>Graceful Degradation</strong> - Systems that continue to function with reduced capabilities</li> <li><strong>Automation</strong> - Reducing human intervention to minimize human error</li> </ul> <h4 id="2-scalability">2. Scalability</h4> <p>As a system grows in data volume, traffic, or complexity, there should be a reasonable way of dealing with that growth. This involves:</p> <ul> <li><strong>Load Parameters</strong> - What defines “load” for your system? (requests per second, concurrent users, etc.)</li> <li><strong>Performance Metrics</strong> - How do you measure performance? (response time, throughput, etc.)</li> <li><strong>Scaling Approaches</strong> - Vertical scaling (bigger machines) vs. horizontal scaling (more machines)</li> </ul> <p>Common scaling patterns include:</p> <ul> <li><strong>Sharding</strong> - Distributing data across multiple machines</li> <li><strong>Caching</strong> - Storing frequently accessed data in faster storage</li> <li><strong>Read Replicas</strong> - Distributing read operations across multiple copies</li> <li><strong>Denormalization</strong> - Redundantly storing data to optimize for specific access patterns</li> </ul> <h4 id="3-maintainability">3. Maintainability</h4> <p>Software has a long life, so it’s crucial to design systems that are easy to maintain. This involves:</p> <ul> <li><strong>Operability</strong> - Making it easy for operations teams to run the system</li> <li><strong>Simplicity</strong> - Managing complexity through abstraction</li> <li><strong>Evolvability</strong> - Making it easy for engineers to make changes</li> </ul> <h3 id="data-models-and-query-languages">Data Models and Query Languages</h3> <p>The way we model data has profound implications for how we can use it:</p> <h4 id="relational-model">Relational Model</h4> <p>The relational model (SQL) has been dominant for decades because it:</p> <ul> <li>Provides a clean, mathematical foundation</li> <li>Offers powerful query capabilities</li> <li>Supports transactions and consistency guarantees</li> </ul> <p>However, it has limitations:</p> <ul> <li>Schema rigidity</li> <li>Scaling challenges</li> <li>Impedance mismatch with application objects</li> </ul> <h4 id="document-model">Document Model</h4> <p>Document databases (like MongoDB) offer:</p> <ul> <li>Schema flexibility</li> <li>Better locality for document-oriented data</li> <li>Simpler scaling in some cases</li> </ul> <p>Trade-offs include:</p> <ul> <li>Limited query capabilities</li> <li>Weaker consistency guarantees</li> <li>Less mature tooling</li> </ul> <h4 id="graph-model">Graph Model</h4> <p>Graph databases excel at:</p> <ul> <li>Representing complex relationships</li> <li>Traversing connections efficiently</li> <li>Modeling domains with rich interconnections</li> </ul> <p>They’re particularly useful for:</p> <ul> <li>Social networks</li> <li>Recommendation engines</li> <li>Fraud detection</li> </ul> <h3 id="storage-and-retrieval">Storage and Retrieval</h3> <p>Understanding how databases store and retrieve data is crucial for designing efficient systems:</p> <h4 id="log-structured-storage">Log-Structured Storage</h4> <p>Systems like LSM-trees (used in LevelDB, RocksDB, Cassandra) offer:</p> <ul> <li>High write throughput</li> <li>Efficient sequential I/O</li> <li>Good compression ratios</li> </ul> <h4 id="b-trees">B-Trees</h4> <p>The traditional index structure used in most relational databases provides:</p> <ul> <li>Predictable performance</li> <li>Good for point and range queries</li> <li>Mature implementation</li> </ul> <h4 id="column-oriented-storage">Column-Oriented Storage</h4> <p>Databases like BigQuery and Redshift optimize for:</p> <ul> <li>Analytical queries</li> <li>Aggregations</li> <li>Data warehousing</li> </ul> <h3 id="data-encoding-and-evolution">Data Encoding and Evolution</h3> <p>As applications evolve, data formats and schemas change. Managing this evolution is critical:</p> <h4 id="language-specific-formats">Language-Specific Formats</h4> <ul> <li>Java serialization</li> <li>Python pickle</li> <li>Ruby Marshal</li> </ul> <p>These are convenient but have limitations:</p> <ul> <li>Language lock-in</li> <li>Security risks</li> <li>Versioning challenges</li> </ul> <h4 id="text-based-formats">Text-Based Formats</h4> <ul> <li>JSON</li> <li>XML</li> <li>CSV</li> </ul> <p>Advantages:</p> <ul> <li>Human-readable</li> <li>Language-independent</li> <li>Widely supported</li> </ul> <h4 id="binary-formats">Binary Formats</h4> <ul> <li>Protocol Buffers</li> <li>Thrift</li> <li>Avro</li> </ul> <p>Benefits:</p> <ul> <li>Compact representation</li> <li>Schema evolution</li> <li>Cross-language compatibility</li> </ul> <h3 id="distributed-systems">Distributed Systems</h3> <p>Modern data-intensive applications are typically distributed across multiple machines:</p> <h4 id="replication">Replication</h4> <p>Keeping copies of data on multiple nodes for:</p> <ul> <li>Reliability</li> <li>Scalability</li> <li>Geographic distribution</li> </ul> <p>Challenges include:</p> <ul> <li>Consistency models</li> <li>Replication lag</li> <li>Conflict resolution</li> </ul> <h4 id="partitioning">Partitioning</h4> <p>Splitting data across multiple nodes to:</p> <ul> <li>Scale beyond single machine limits</li> <li>Distribute load</li> <li>Improve availability</li> </ul> <p>Considerations:</p> <ul> <li>Partitioning strategies</li> <li>Rebalancing</li> <li>Query routing</li> </ul> <h4 id="transactions">Transactions</h4> <p>Ensuring data consistency across multiple operations:</p> <ul> <li>ACID properties</li> <li>Distributed transactions</li> <li>Consensus algorithms</li> </ul> <h3 id="stream-processing">Stream Processing</h3> <p>Processing data as it arrives, rather than in batches:</p> <ul> <li>Event sourcing</li> <li>Change data capture</li> <li>Stream processing frameworks (Kafka, Flink, etc.)</li> </ul> <p>Benefits:</p> <ul> <li>Lower latency</li> <li>More responsive systems</li> <li>Better resource utilization</li> </ul> <h3 id="batch-processing">Batch Processing</h3> <p>Processing large volumes of data in batches:</p> <ul> <li>MapReduce</li> <li>Data warehouses</li> <li>ETL pipelines</li> </ul> <p>Advantages:</p> <ul> <li>Efficient resource utilization</li> <li>Simpler programming model</li> <li>Better for complex analytics</li> </ul> <h3 id="the-future-of-data-systems">The Future of Data Systems</h3> <p>As we look to the future, several trends are shaping data-intensive applications:</p> <ul> <li><strong>Unified Processing</strong> - Blurring lines between batch and stream processing</li> <li><strong>Semantic Caching</strong> - Caching based on query semantics rather than exact matches</li> <li><strong>Automated Optimization</strong> - Self-tuning systems that adapt to workload patterns</li> <li><strong>Edge Computing</strong> - Processing data closer to where it’s generated</li> <li><strong>Federated Learning</strong> - Training models across distributed data without centralization</li> </ul> <h3 id="conclusion">Conclusion</h3> <p>Designing data-intensive applications is a complex task that requires balancing multiple competing concerns. By understanding the fundamental principles of reliability, scalability, and maintainability, and by making informed choices about data models, storage, and processing, you can build systems that are robust, efficient, and adaptable.</p> <p>Remember that there are no one-size-fits-all solutions. The best design depends on your specific requirements, constraints, and trade-offs. Continuously evaluate your choices and be prepared to evolve your system as needs change.</p> <p>What aspects of data-intensive application design do you find most challenging? Share your experiences and questions in the comments!</p>]]></content><author><name></name></author><category term="architecture"/><category term="System-Design"/><category term="Data-Engineering"/><category term="Architecture"/><category term="Scalability"/><category term="Reliability"/><summary type="html"><![CDATA[A comprehensive guide to designing scalable, reliable, and maintainable data-intensive applications based on the principles from Martin Kleppmann's book.]]></summary></entry><entry><title type="html">Deploying Hugo Sites with GitHub Actions</title><link href="https://alshedivat.github.io/blog/2024/deploy-hugo-github-actions/" rel="alternate" type="text/html" title="Deploying Hugo Sites with GitHub Actions"/><published>2024-04-03T11:15:00+00:00</published><updated>2024-04-03T11:15:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/deploy-hugo-github-actions</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/deploy-hugo-github-actions/"><![CDATA[<h2 id="automating-hugo-site-deployment-with-github-actions">Automating Hugo Site Deployment with GitHub Actions</h2> <p>Deploying a Hugo static site manually can be tedious, especially when you make frequent updates. GitHub Actions provides an excellent solution for automating this process, allowing you to focus on creating content while the deployment happens automatically. In this guide, I’ll walk you through setting up GitHub Actions to deploy your Hugo site.</p> <h3 id="why-use-github-actions-for-hugo-deployment">Why Use GitHub Actions for Hugo Deployment?</h3> <p>Before diving into the implementation, let’s understand why GitHub Actions is a great choice for Hugo deployment:</p> <ul> <li><strong>Automation</strong> - Eliminate manual deployment steps</li> <li><strong>Consistency</strong> - Ensure your site is built the same way every time</li> <li><strong>Integration</strong> - Seamlessly connect with GitHub repositories</li> <li><strong>Flexibility</strong> - Deploy to various hosting platforms (GitHub Pages, Netlify, Vercel, etc.)</li> <li><strong>Cost-effective</strong> - Free for public repositories with generous limits</li> </ul> <h3 id="prerequisites">Prerequisites</h3> <p>To follow this guide, you’ll need:</p> <ul> <li>A Hugo site stored in a GitHub repository</li> <li>Basic familiarity with GitHub and Hugo</li> <li>Access to your GitHub repository settings</li> </ul> <h3 id="step-1-create-a-github-actions-workflow-file">Step 1: Create a GitHub Actions Workflow File</h3> <p>First, create a workflow file in your repository at <code class="language-plaintext highlighter-rouge">.github/workflows/hugo.yml</code>:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">Deploy Hugo site to Pages</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span> <span class="pi">[</span><span class="s2">"</span><span class="s">main"</span><span class="pi">]</span>
+  <span class="na">workflow_dispatch</span><span class="pi">:</span>
 
-Content 1
+<span class="na">permissions</span><span class="pi">:</span>
+  <span class="na">contents</span><span class="pi">:</span> <span class="s">read</span>
+  <span class="na">pages</span><span class="pi">:</span> <span class="s">write</span>
+  <span class="na">id-token</span><span class="pi">:</span> <span class="s">write</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+<span class="na">concurrency</span><span class="pi">:</span>
+  <span class="na">group</span><span class="pi">:</span> <span class="s2">"</span><span class="s">pages"</span>
+  <span class="na">cancel-in-progress</span><span class="pi">:</span> <span class="kc">false</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+<span class="na">defaults</span><span class="pi">:</span>
+  <span class="na">run</span><span class="pi">:</span>
+    <span class="na">shell</span><span class="pi">:</span> <span class="s">bash</span>
 
-Content 2
+<span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">build</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v4</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">submodules</span><span class="pi">:</span> <span class="s">recursive</span>
+          <span class="na">fetch-depth</span><span class="pi">:</span> <span class="m">0</span>
+      
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Hugo</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-hugo@v2</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">hugo-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">latest'</span>
+          <span class="na">extended</span><span class="pi">:</span> <span class="kc">true</span>
+      
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build with Hugo</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">hugo --minify</span>
+      
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v3</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">path</span><span class="pi">:</span> <span class="s">./public</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="na">deploy</span><span class="pi">:</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
+      <span class="na">url</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">needs</span><span class="pi">:</span> <span class="s">build</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to GitHub Pages</span>
+        <span class="na">id</span><span class="pi">:</span> <span class="s">deployment</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/deploy-pages@v4</span>
+</code></pre></div></div> <p>This workflow will:</p> <ol> <li>Trigger on pushes to the main branch or manual workflow dispatch</li> <li>Check out your repository with submodules (if you’re using themes as submodules)</li> <li>Set up Hugo with the extended version</li> <li>Build your site with minification</li> <li>Upload the built site as an artifact</li> <li>Deploy to GitHub Pages</li> </ol> <h3 id="step-2-configure-github-pages">Step 2: Configure GitHub Pages</h3> <p>To enable GitHub Pages for your repository:</p> <ol> <li>Go to your repository on GitHub</li> <li>Navigate to Settings &gt; Pages</li> <li>Under “Build and deployment”, select “GitHub Actions” as the source</li> <li>Save the changes</li> </ol> <h3 id="step-3-customize-the-workflow-optional">Step 3: Customize the Workflow (Optional)</h3> <p>Depending on your specific needs, you might want to customize the workflow:</p> <h4 id="adding-environment-variables">Adding Environment Variables</h4> <p>If your Hugo site requires environment variables (like API keys), you can add them securely:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build with Hugo</span>
+  <span class="na">env</span><span class="pi">:</span>
+    <span class="na">HUGO_ENV</span><span class="pi">:</span> <span class="s">production</span>
+    <span class="na">MY_API_KEY</span><span class="pi">:</span> <span class="s">$</span>
+  <span class="na">run</span><span class="pi">:</span> <span class="s">hugo --minify</span>
+</code></pre></div></div> <h4 id="using-a-specific-hugo-version">Using a Specific Hugo Version</h4> <p>Instead of using the latest version, you can specify a particular Hugo version:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Hugo</span>
+  <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-hugo@v2</span>
+  <span class="na">with</span><span class="pi">:</span>
+    <span class="na">hugo-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">0.121.1'</span>
+    <span class="na">extended</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div> <h4 id="adding-caching-for-faster-builds">Adding Caching for Faster Builds</h4> <p>To speed up your builds, you can add caching for Hugo resources:</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Cache</span>
+  <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/cache@v3</span>
+  <span class="na">with</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/tmp/hugo_cache</span>
+    <span class="na">key</span><span class="pi">:</span> <span class="s">$-hugomod-$</span>
+    <span class="na">restore-keys</span><span class="pi">:</span> <span class="pi">|</span>
+      <span class="s">$-hugomod-</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="841b076e-3441-48c0-bd98-0f2f3c0a394c" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="841b076e-3441-48c0-bd98-0f2f3c0a394c" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="0fb4b214-dac6-4eb8-9f06-5f2b6ec7110a" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="0fb4b214-dac6-4eb8-9f06-5f2b6ec7110a" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="6ae2d8c2-6d7b-4ad8-aa72-1c4d501ca8a4" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="6ae2d8c2-6d7b-4ad8-aa72-1c4d501ca8a4" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/al-folio/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://alshedivat.github.io/al-folio/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/post-citation</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/pseudocode</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://alshedivat.github.io/al-folio/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/code-diff</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/advanced-images</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/9-480.webp 480w,/al-folio/assets/img/9-800.webp 800w,/al-folio/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/7-480.webp 480w,/al-folio/assets/img/7-800.webp 800w,/al-folio/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/8-480.webp 480w,/al-folio/assets/img/8-800.webp 800w,/al-folio/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/10-480.webp 480w,/al-folio/assets/img/10-800.webp 800w,/al-folio/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/12-480.webp 480w,/al-folio/assets/img/12-800.webp 800w,/al-folio/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic-480.webp 480w,/al-folio/assets/img/prof_pic-800.webp 800w,/al-folio/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic_color-480.webp 480w,/al-folio/assets/img/prof_pic_color-800.webp 800w,/al-folio/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/vega-lite</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry></feed>
+<span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build with Hugo</span>
+  <span class="na">env</span><span class="pi">:</span>
+    <span class="na">HUGO_CACHEDIR</span><span class="pi">:</span> <span class="s">/tmp/hugo_cache</span>
+  <span class="na">run</span><span class="pi">:</span> <span class="s">hugo --minify</span>
+</code></pre></div></div> <h3 id="step-4-deploying-to-other-platforms">Step 4: Deploying to Other Platforms</h3> <p>While the example above uses GitHub Pages, you can easily adapt the workflow for other platforms:</p> <h4 id="netlify">Netlify</h4> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to Netlify</span>
+  <span class="na">uses</span><span class="pi">:</span> <span class="s">nwtgck/actions-netlify@v2.0</span>
+  <span class="na">with</span><span class="pi">:</span>
+    <span class="na">publish-dir</span><span class="pi">:</span> <span class="s1">'</span><span class="s">./public'</span>
+    <span class="na">production-branch</span><span class="pi">:</span> <span class="s">main</span>
+    <span class="na">github-token</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">deploy-message</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Deploy</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">GitHub</span><span class="nv"> </span><span class="s">Actions"</span>
+  <span class="na">env</span><span class="pi">:</span>
+    <span class="na">NETLIFY_AUTH_TOKEN</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">NETLIFY_SITE_ID</span><span class="pi">:</span> <span class="s">$</span>
+</code></pre></div></div> <h4 id="vercel">Vercel</h4> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to Vercel</span>
+  <span class="na">uses</span><span class="pi">:</span> <span class="s">amondnet/vercel-action@v25</span>
+  <span class="na">with</span><span class="pi">:</span>
+    <span class="na">vercel-token</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">vercel-org-id</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">vercel-project-id</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">working-directory</span><span class="pi">:</span> <span class="s">./</span>
+</code></pre></div></div> <h3 id="troubleshooting-common-issues">Troubleshooting Common Issues</h3> <h4 id="missing-theme">Missing Theme</h4> <p>If your build fails with a theme-related error, ensure you’ve properly set up your theme as a Git submodule:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+git submodule update <span class="nt">--init</span> <span class="nt">--recursive</span>
+</code></pre></div></div> <p>And make sure your workflow includes <code class="language-plaintext highlighter-rouge">submodules: recursive</code> in the checkout step.</p> <h4 id="build-failures">Build Failures</h4> <p>If your build fails, check the GitHub Actions logs for specific error messages. Common issues include:</p> <ul> <li>Missing dependencies</li> <li>Incorrect Hugo version</li> <li>Syntax errors in your content</li> <li>Missing environment variables</li> </ul> <h3 id="conclusion">Conclusion</h3> <p>Setting up GitHub Actions for your Hugo site deployment streamlines your workflow and ensures consistent deployments. The configuration provided in this guide should work for most Hugo sites, but feel free to customize it based on your specific requirements.</p> <p>With this automation in place, you can focus on creating great content while GitHub Actions handles the deployment process automatically.</p> <p>Have you set up GitHub Actions for your Hugo site? What challenges did you face, and how did you overcome them? Share your experience in the comments!</p>]]></content><author><name></name></author><category term="tutorials"/><category term="Hugo"/><category term="GitHub-Actions"/><category term="CI/CD"/><category term="Deployment"/><category term="Automation"/><summary type="html"><![CDATA[A step-by-step guide to automating the deployment of Hugo static sites using GitHub Actions for continuous integration and deployment.]]></summary></entry><entry><title type="html">The Best AI-Powered Coding Assistant in 2025</title><link href="https://alshedivat.github.io/blog/2024/best-ai-powered-coding-assistant-in-2025/" rel="alternate" type="text/html" title="The Best AI-Powered Coding Assistant in 2025"/><published>2024-04-02T10:30:00+00:00</published><updated>2024-04-02T10:30:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/best-ai-powered-coding-assistant-in-2025</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/best-ai-powered-coding-assistant-in-2025/"><![CDATA[<h2 id="the-evolution-of-ai-coding-assistants-whats-the-best-option-in-2025">The Evolution of AI Coding Assistants: What’s the Best Option in 2025?</h2> <p>As we move further into 2025, AI-powered coding assistants have evolved from simple code completion tools to sophisticated development partners. These assistants are now capable of understanding complex project contexts, suggesting architectural improvements, and even writing entire features with minimal human intervention. But with so many options available, which one stands out as the best?</p> <p>In this post, I’ll compare the top AI coding assistants available in 2025, evaluate their strengths and weaknesses, and help you decide which one might be the best fit for your development workflow.</p> <h3 id="the-contenders-a-quick-overview">The Contenders: A Quick Overview</h3> <ol> <li><strong>GitHub Copilot X</strong> - The latest evolution of GitHub’s AI pair programmer</li> <li><strong>Amazon CodeWhisperer Pro</strong> - Amazon’s enterprise-focused coding assistant</li> <li><strong>Google’s Project IDX</strong> - Google’s integrated development environment with AI capabilities</li> <li><strong>Cursor AI</strong> - The open-source friendly coding assistant</li> <li><strong>Tabnine Enterprise</strong> - The privacy-focused AI coding assistant</li> </ol> <h3 id="evaluation-criteria">Evaluation Criteria</h3> <p>To determine the best AI coding assistant, I’ll evaluate each contender based on:</p> <ul> <li><strong>Code Understanding</strong> - How well does it understand your codebase and project context?</li> <li><strong>Code Generation</strong> - How accurate and useful is the generated code?</li> <li><strong>Integration</strong> - How seamlessly does it integrate with your existing development tools?</li> <li><strong>Learning Capability</strong> - How well does it adapt to your coding style and preferences?</li> <li><strong>Privacy &amp; Security</strong> - How does it handle sensitive code and intellectual property?</li> <li><strong>Cost</strong> - What’s the value proposition compared to the price?</li> </ul> <h3 id="the-detailed-comparison">The Detailed Comparison</h3> <h4 id="github-copilot-x">GitHub Copilot X</h4> <p>GitHub Copilot X has come a long way since its initial release. The 2025 version includes:</p> <ul> <li><strong>Advanced Context Understanding</strong> - Now capable of understanding your entire codebase, not just the current file</li> <li><strong>Multi-modal Interaction</strong> - Voice commands, natural language instructions, and code editing</li> <li><strong>Architectural Suggestions</strong> - Can propose improvements to your software architecture</li> <li><strong>Documentation Generation</strong> - Automatically creates comprehensive documentation</li> <li><strong>Security Scanning</strong> - Identifies potential security vulnerabilities in generated code</li> </ul> <p><strong>Pros:</strong></p> <ul> <li>Excellent integration with GitHub and Visual Studio Code</li> <li>Strong community and continuous updates</li> <li>Good understanding of popular frameworks and libraries</li> </ul> <p><strong>Cons:</strong></p> <ul> <li>Can be expensive for individual developers</li> <li>Sometimes generates overly complex solutions</li> <li>Requires internet connection for full functionality</li> </ul> <h4 id="amazon-codewhisperer-pro">Amazon CodeWhisperer Pro</h4> <p>Amazon’s enterprise-focused coding assistant has made significant strides:</p> <ul> <li><strong>AWS Integration</strong> - Deep integration with AWS services and infrastructure</li> <li><strong>Compliance Checking</strong> - Ensures generated code meets regulatory requirements</li> <li><strong>Team Collaboration</strong> - Shared context across team members</li> <li><strong>Custom Model Training</strong> - Ability to fine-tune the model on your codebase</li> </ul> <p><strong>Pros:</strong></p> <ul> <li>Excellent for AWS-based projects</li> <li>Strong security and compliance features</li> <li>Good for enterprise environments</li> </ul> <p><strong>Cons:</strong></p> <ul> <li>Less effective for non-AWS projects</li> <li>Steeper learning curve</li> <li>Higher price point</li> </ul> <h4 id="googles-project-idx">Google’s Project IDX</h4> <p>Google’s integrated development environment with AI capabilities:</p> <ul> <li><strong>Full IDE Integration</strong> - AI features built directly into the development environment</li> <li><strong>Multi-language Support</strong> - Excellent support for multiple programming languages</li> <li><strong>Cloud-based Development</strong> - Develop from anywhere with cloud-based workspaces</li> <li><strong>Collaborative Features</strong> - Real-time collaboration with team members</li> </ul> <p><strong>Pros:</strong></p> <ul> <li>Seamless integration with Google Cloud services</li> <li>Excellent collaboration features</li> <li>Strong performance for web development</li> </ul> <p><strong>Cons:</strong></p> <ul> <li>Requires significant internet bandwidth</li> <li>Newer to the market with fewer established patterns</li> <li>Can be resource-intensive</li> </ul> <h4 id="cursor-ai">Cursor AI</h4> <p>The open-source friendly coding assistant:</p> <ul> <li><strong>Open Source Integration</strong> - Works well with open source projects</li> <li><strong>Local Processing</strong> - Option to process code locally for privacy</li> <li><strong>Custom Extensions</strong> - Extensible architecture for custom functionality</li> <li><strong>Community-driven Development</strong> - Active community contributing to improvements</li> </ul> <p><strong>Pros:</strong></p> <ul> <li>More affordable than enterprise options</li> <li>Good for open source projects</li> <li>Strong community support</li> </ul> <p><strong>Cons:</strong></p> <ul> <li>Less sophisticated than enterprise options</li> <li>Fewer advanced features</li> <li>May struggle with very large codebases</li> </ul> <h4 id="tabnine-enterprise">Tabnine Enterprise</h4> <p>The privacy-focused AI coding assistant:</p> <ul> <li><strong>On-premise Deployment</strong> - Can be deployed within your organization’s infrastructure</li> <li><strong>Code Privacy</strong> - Ensures your code never leaves your organization</li> <li><strong>Custom Model Training</strong> - Train on your specific codebase</li> <li><strong>Compliance Features</strong> - Built-in compliance with various regulations</li> </ul> <p><strong>Pros:</strong></p> <ul> <li>Excellent for organizations with strict privacy requirements</li> <li>Good for regulated industries</li> <li>Can work offline</li> </ul> <p><strong>Cons:</strong></p> <ul> <li>More complex setup and maintenance</li> <li>Higher initial investment</li> <li>Requires more computational resources</li> </ul> <h3 id="the-verdict-which-one-is-the-best">The Verdict: Which One is the Best?</h3> <p>After extensive testing and evaluation, <strong>GitHub Copilot X</strong> emerges as the best overall AI coding assistant in 2025. Its combination of code understanding, generation capabilities, and integration with popular development tools makes it the most versatile and useful option for most developers.</p> <p>However, the “best” choice really depends on your specific needs:</p> <ul> <li><strong>For Enterprise Teams:</strong> Amazon CodeWhisperer Pro or Tabnine Enterprise</li> <li><strong>For Privacy-Conscious Organizations:</strong> Tabnine Enterprise</li> <li><strong>For Google Cloud Users:</strong> Project IDX</li> <li><strong>For Open Source Developers:</strong> Cursor AI</li> <li><strong>For Individual Developers:</strong> GitHub Copilot X</li> </ul> <h3 id="the-future-of-ai-coding-assistants">The Future of AI Coding Assistants</h3> <p>As we look beyond 2025, AI coding assistants will continue to evolve. We can expect:</p> <ul> <li><strong>More Specialized Assistants</strong> - Tailored for specific domains or programming paradigms</li> <li><strong>Improved Understanding</strong> - Better comprehension of project context and requirements</li> <li><strong>Enhanced Collaboration</strong> - More sophisticated team collaboration features</li> <li><strong>Autonomous Development</strong> - Increased capability for autonomous code generation and maintenance</li> </ul> <h3 id="conclusion">Conclusion</h3> <p>AI coding assistants have transformed from simple tools to essential development partners. While GitHub Copilot X currently leads the pack, the best choice depends on your specific needs, workflow, and priorities. As these tools continue to evolve, we can expect even more powerful and specialized options in the future.</p> <p>What’s your experience with AI coding assistants? Which one do you prefer, and why? Let me know in the comments!</p>]]></content><author><name></name></author><category term="technology"/><category term="AI"/><category term="Coding-Assistants"/><category term="Development"/><category term="Tools"/><category term="Productivity"/><summary type="html"><![CDATA[A comprehensive comparison of the top AI coding assistants available in 2025, their features, and how they're transforming software development.]]></summary></entry><entry><title type="html">An Apology to My Math Professors (10 Years Too Late)</title><link href="https://alshedivat.github.io/blog/2024/apology-to-my-math-professors/" rel="alternate" type="text/html" title="An Apology to My Math Professors (10 Years Too Late)"/><published>2024-04-01T09:45:00+00:00</published><updated>2024-04-01T09:45:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/apology-to-my-math-professors</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/apology-to-my-math-professors/"><![CDATA[<h2 id="an-open-letter-and-apology-to-my-math-professors-why-im-finally-grokking-the-importance-of-math-in-llms">An Open Letter (and Apology) to My Math Professors: Why I’m Finally Grokking the Importance of Math in LLMs</h2> <p>Okay, everyone, let’s get real for a second. Remember those core classes you breezed through (or, you know, <em>survived</em>) during your undergraduate degree, thinking, “When am I <em>ever</em> going to use this stuff?” Yeah, me too. Specifically, I’m thinking back to my time at Özyegin University, staring blankly at problem sets in Discrete Math, Differential Equations, and Linear Algebra, convinced they were abstract torture devices designed to thin the ranks of aspiring engineers.</p> <p>To my incredible math professors at OzU, I owe you an apology. I’m not going to name names (you know who you are!), but hindsight, as they say, is 20/20. I now see, with crystal clarity, that those courses were laying the foundation for the very technology that’s currently reshaping the world: Large Language Models (LLMs).</p> <p>So, why the sudden change of heart? What tipped me from “Differential Equations are the bane of my existence” to “<em>Wow</em>, Differential Equations are, like, <em>fundamental</em> to understanding LLMs?” Let me explain.</p> <p><strong>The LLM Awakening: It’s All About the Math (Duh!)</strong></p> <p>Recently, I’ve been diving deep into the inner workings of LLMs – think GPT-3, LaMDA, and the like. The deeper I go, the more I realize that beneath the slick interfaces and seemingly magical text generation lies a vast ocean of mathematical concepts.</p> <p>These models aren’t just spitting out words they’ve memorized. They’re learning complex relationships between words and concepts by leveraging sophisticated mathematical tools.</p> <ul> <li><strong>Linear Algebra: The Foundation of Embeddings:</strong> Remember those matrix operations? Turns out, they are critical for understanding word embeddings. LLMs represent words as vectors in a high-dimensional space, capturing semantic relationships. Linear algebra provides the tools to manipulate these vectors, calculate similarities, and understand the geometric structure of the embedding space. Without it, your LLM is just a random word generator.</li> <li><strong>Calculus (and Differential Equations!): The Gradient Descent Dance:</strong> Ever wondered how an LLM “learns”? It’s all thanks to gradient descent, a process of iteratively adjusting the model’s parameters to minimize prediction errors. This is where calculus, specifically differential equations, comes in. Understanding how gradients flow through the network, how loss functions are minimized, and how optimization algorithms work requires a solid grasp of calculus. (Yes, that includes the chain rule, I remember it now!)</li> <li><strong>Discrete Math: The Logic Behind the Language:</strong> Discrete mathematics, with its focus on logic, sets, and graphs, plays a crucial role in understanding the underlying structures of language. From parsing sentences to understanding logical relationships between concepts, discrete math provides the framework for understanding how language is structured and processed.</li> </ul> <p><strong>Dusting Off the Textbooks: My Journey Back to Math Fundamentals</strong></p> <p>Realizing the depth of my past mathematical sins, I’ve embarked on a journey of rediscovery. I’ve pulled out my old Özyegin University textbooks (thankfully, I never threw them away!), and I’m re-working problems, re-watching lectures (thanks, YouTube!), and trying to build a stronger foundation.</p> <p>It’s not easy. Let’s be honest, the neural pathways have atrophied a bit. But the experience is incredibly rewarding. With each concept I relearn, I gain a deeper appreciation for the elegance and power of mathematics, and a better understanding of the technology that’s shaping our future.</p> <p><strong>The Takeaway: Embrace the Math!</strong></p> <p>If you’re interested in LLMs, AI, or any cutting-edge technology, don’t underestimate the importance of mathematics. It’s not just an abstract academic exercise; it’s the language in which these systems are built, understood, and improved.</p> <p>So, to my former math professors and my fellow engineers - especially those from OzU - let’s embrace the math! Let’s re-learn the fundamentals, dive into the equations, and unlock the power of these incredible technologies. And maybe, just maybe, we can finally figure out what those problem sets were <em>really</em> about.</p> <p>Now, if you’ll excuse me, I have a date with a textbook on Differential Equations. Wish me luck!</p>]]></content><author><name></name></author><category term="personal"/><category term="Mathematics"/><category term="Education"/><category term="Personal-Growth"/><category term="Career"/><summary type="html"><![CDATA[A heartfelt reflection on the importance of mathematics in programming and a belated appreciation for the professors who tried to teach me.]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://alshedivat.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://alshedivat.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://alshedivat.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[<h3>External Posts on Your al-folio Blog</h3> <p>If you prefer publishing blog posts on medium.com or other external sources, starting version v0.5.0, <a href="https://github.com/alshedivat/al-folio">al-folio</a> lets you to display your external posts in the blog feed of your website! 🎉🎉</p> <p>Configuring external sources of super simple. After upgrading to v0.5.0, just add the following section to your _config.yml:</p> <pre>external_sources:<br />  - name: medium.com  # name of the source (arbitrary string)<br />    rss_url: <a href="https://medium.com/@al-folio/feed">https://medium.com/@&lt;your-medium-username&gt;/feed</a></pre> <p>The example above adds your medium.com blog post feed as an external source. But you can add arbitrary RSS feeds as sources.</p> <p>Any questions or suggestions? 👉 Start <a href="https://github.com/alshedivat/al-folio/discussions">a discussion on GitHub</a>!</p> <p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=b60a1d241a0a" width="1" height="1" alt=""/></p>]]></content><author><name></name></author></entry></feed>
