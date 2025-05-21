@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lectures
+title: lectures
 permalink: /lectures/
 description: A curated collection of educational videos and lectures on software architecture, distributed systems, and cloud computing.
 nav: true
