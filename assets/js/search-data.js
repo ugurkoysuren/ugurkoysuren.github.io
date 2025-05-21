@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-lectures",
-          title: "Lectures",
+          title: "lectures",
           description: "A curated collection of educational videos and lectures on software architecture, distributed systems, and cloud computing.",
           section: "Navigation",
           handler: () => {
