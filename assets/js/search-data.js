@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-talks",
-          title: "Talks",
+          title: "talks",
           description: "A collection of my public appearances, including presentations, speaker videos, and photos.",
           section: "Navigation",
           handler: () => {
