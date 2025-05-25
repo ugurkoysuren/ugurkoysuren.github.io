@@ -37,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-lectures",
-          title: "lectures",
-          description: "A curated collection of educational videos and lectures on software architecture, distributed systems, and cloud computing.",
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "A collection of my public appearances, including presentations, speaker videos, and photos.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/lectures/";
+            window.location.href = "/talks/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -178,51 +178,31 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-maaslar",
+          title: 'maaslar',
+          description: "A project I&#39;m currently working on.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-koeln-wohnungsgenossenschaft",
+          title: 'koeln-wohnungsgenossenschaft',
+          description: "A social project with a focus on housing in Cologne.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-bittorrent-client",
+          title: 'BitTorrent Client',
+          description: "A side project to build a BitTorrent client and learn about P2P networking.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-custom-web-server",
+          title: 'Custom Web Server',
+          description: "Building a web server from scratch to understand its inner workings.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-cloud-resume-challenge",
+          title: 'Cloud Resume Challenge',
+          description: "Undertaking the Cloud Resume Challenge to build and showcase cloud skills.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/14_project/";
             },},{
         id: 'social-email',
         title: 'email',
